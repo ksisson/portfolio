@@ -75,39 +75,39 @@ const TechWrapper = styled.div`
 
 const IndexPage = () => (
   <Layout>
-        <Home>
-          <FrontPage>
-            <IntroWrapper>Hey, I’m Kyle Sisson, a full-stack web developer based in Los Angeles. I build fast, dynamic websites to help businesses and individuals get their message across.</IntroWrapper>
-          </FrontPage>
-          <Title ref={this.techSection}>Tech & Skills</Title>
-          <TechWrapper>
-            <div className="outer"><img src={HTMLLogo} alt="" />
-              <div className="inner">HTML</div></div>
-            <div className="outer"><img src={CSSLogo} alt="" />
-              <div className="inner">CSS</div></div>
-            <div className="outer"><img src={JSLogo} alt="" />
-              <div className="inner">JavaScript</div></div>
-            <div className="outer"><img src={ReactLogo} alt="" />
-              <div className="inner">React.js</div></div>
-            <div className="outer"><img src={NodeLogo} id="nodeLogo" alt="" />
-              <div className="inner"  >Node.js</div></div>
-            <div className="outer"><img src={GraphQLLogo} alt="" />
-              <div className="inner">GraphQL</div></div>
-            <div className="outer"><img src={NextLogo} alt="" />
-              <div className="inner">Next.js</div></div>
-            <div className="outer"><img src={GatsbyLogo} alt="" />
-              <div className="inner">Gatsby.js</div></div>
-            <div className="outer"><img src={GitLogo} alt="" />
-              <div className="inner">Git</div></div>
-            <div className="outer"><img src={MongoDBLogo} alt="" />
-              <div className="inner">MongoDB</div></div>
-            <div className="outer"><img src={MySQLLogo} alt="" />
-              <div className="inner">MySQL</div></div>
-            <div className="outer"><img src={jQueryLogo} alt="" />
-              <div className="inner">jQuery</div></div>
-          </TechWrapper>
-        </Home>
-      </Layout>
+    <Home>
+      <FrontPage>
+        <IntroWrapper>Hey, I’m Kyle Sisson, a full-stack web developer based in Los Angeles. I build fast, dynamic websites to help businesses and individuals get their message across.</IntroWrapper>
+      </FrontPage>
+      <Title>Tech & Skills</Title>
+      <TechWrapper>
+        <div className="outer"><img src={HTMLLogo} alt="" />
+          <div className="inner">HTML</div></div>
+        <div className="outer"><img src={CSSLogo} alt="" />
+          <div className="inner">CSS</div></div>
+        <div className="outer"><img src={JSLogo} alt="" />
+          <div className="inner">JavaScript</div></div>
+        <div className="outer"><img src={ReactLogo} alt="" />
+          <div className="inner">React.js</div></div>
+        <div className="outer"><img src={NodeLogo} id="nodeLogo" alt="" />
+          <div className="inner"  >Node.js</div></div>
+        <div className="outer"><img src={GraphQLLogo} alt="" />
+          <div className="inner">GraphQL</div></div>
+        <div className="outer"><img src={NextLogo} alt="" />
+          <div className="inner">Next.js</div></div>
+        <div className="outer"><img src={GatsbyLogo} alt="" />
+          <div className="inner">Gatsby.js</div></div>
+        <div className="outer"><img src={GitLogo} alt="" />
+          <div className="inner">Git</div></div>
+        <div className="outer"><img src={MongoDBLogo} alt="" />
+          <div className="inner">MongoDB</div></div>
+        <div className="outer"><img src={MySQLLogo} alt="" />
+          <div className="inner">MySQL</div></div>
+        <div className="outer"><img src={jQueryLogo} alt="" />
+          <div className="inner">jQuery</div></div>
+      </TechWrapper>
+    </Home>
+  </Layout>
 )
 
 export default IndexPage
