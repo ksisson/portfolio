@@ -26,7 +26,7 @@ const MainWrapper = styled.main`
   margin: 0 auto; 
 
   @media (max-width: 530px) {
-    padding: 0px 10px;
+    padding: 0px 10px 50px;
   }
 `;
 

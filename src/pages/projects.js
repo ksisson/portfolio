@@ -22,6 +22,9 @@ const ProjectWrapper = styled.div`
       margin: 0;
       padding-left: 20px;
     }
+    a {
+      text-decoration: underline;
+    }
   }
 `;
 
@@ -82,6 +85,7 @@ const Projects = () => (
                 <li>Integrated with IDX Broker to allow users to search the Multiple Listing Service</li>
               </ul>
               <p>Stack: React, JavaScript, Next, Node.js, Express, Contentful CMS, CSS in JS</p>
+              <p>Link: <a href="http://maureenstapleton.net">www.maureenstapleton.net</a></p>
             </div>
           </ProjectWrapper>
           <ProjectWrapper>
@@ -97,6 +101,7 @@ const Projects = () => (
                 <li>Incorporated Contentful CMS to allow targeted customization by client</li>
               </ul>
               <p>Stack: React, JavaScript, Next, Node.js, Express, Contentful CMS, CSS in JS</p>
+              <p>Link: <a href="http://beyondtheagency.co">www.beyondtheagency.co</a></p>
             </div>
           </ProjectWrapper>
           <ProjectWrapper>
@@ -111,6 +116,7 @@ const Projects = () => (
                 <li>Portal designed for teachers and students to share notes, write posts, and make comments on material from class</li>
               </ul>
               <p>Stack: React, JavaScript, Node.js, Express, MongoDB, Mongoose, CSS</p>
+              <p>Link: <a href="http://rifft.herokuapp.com">www.rifft.herokuapp.com</a></p>
             </div>
           </ProjectWrapper>
           <ProjectWrapper>
@@ -124,9 +130,10 @@ const Projects = () => (
               <ul>
                 <li>
                   A web application for keeping track of expiration dates of perishable foods.
-          </li>
+                </li>
               </ul>
               <p>Stack: jQuery, Node.js, Express, MySQL, Sequelize</p>
+              <p>Link: <a href="https://xpire.herokuapp.com/">www.xpire.herokuapp.com</a></p>
             </div>
           </ProjectWrapper>
         </Layout>

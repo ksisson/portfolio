@@ -100,7 +100,7 @@ class Navigation extends Component {
           >
             Kyle Sisson
         </h3>
-          <MobileHome>Home</MobileHome>
+          <MobileHome><h4>Home</h4></MobileHome>
         </StyledLink>
         <div />
         <StyledLink to="/projects"><h4>Projects</h4></StyledLink>

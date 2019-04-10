@@ -3,8 +3,10 @@ import styled from "styled-components"
 
 const StyledFooter = styled.footer`
   width: 100%;
+  padding: 20px;
   background: ${props => props.theme.footerBackground};
   text-align: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
 `;
 
 const Footer = () => (
