@@ -3,7 +3,6 @@ import styled from 'styled-components';
 import { StaticQuery, graphql } from 'gatsby';
 import { Transition } from 'react-transition-group';
 import BackgroundImage from 'gatsby-background-image';
-import { onRouteUpdate } from '../../gatsby-browser';
 
 
 

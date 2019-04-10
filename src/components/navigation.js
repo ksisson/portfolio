@@ -18,7 +18,7 @@ const DesktopNavWrapper = styled.nav`
       left: 0;
       right: 0;
       width: 0%;
-      background: black;
+      background: hsla(0,0%,0%,0.5);
       transition: 200ms ease-in-out;
     }
     a:hover:after {
@@ -65,7 +65,7 @@ const StyledLink = styled(Link)`
       height: 60px;
       line-height: 60px;
     }
-    div {
+    h4 {
       height: 60px;
       line-height: 60px;
     }
@@ -103,8 +103,8 @@ class Navigation extends Component {
           <MobileHome>Home</MobileHome>
         </StyledLink>
         <div />
-        <StyledLink to="/projects"><div>Projects</div></StyledLink>
-        <StyledLink to="/about"><div>About</div></StyledLink>
+        <StyledLink to="/projects"><h4>Projects</h4></StyledLink>
+        <StyledLink to="/about"><h4>About</h4></StyledLink>
       </DesktopNavWrapper>
     </>)
   }

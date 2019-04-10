@@ -9,7 +9,6 @@ const theme = {
   backgroundColor: 'white',
   accentColor: '#afc4d0',
   fontColor: 'black',
-  fontFam: "'Libre Baskerville', serif",
   footerBackground: 'white'
 }
 
@@ -19,9 +18,6 @@ const PageWrapper = styled.div`
 const LayoutWrapper = styled.div`
   /* background: rgb(50, 54, 57); */
   background: ${props => props.theme.backgroundColor};
-  color: ${props => props.theme.fontColor};
-  font-family: ${props => props.theme.fontFam};
-  font-weight: 100;
 `;
 
 const MainWrapper = styled.main`

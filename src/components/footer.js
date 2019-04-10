@@ -9,7 +9,7 @@ const StyledFooter = styled.footer`
 
 const Footer = () => (
   <StyledFooter>
-    <a href="mailto:kylegsisson@gmail.com">KyleGSisson@gmail.com</a>
+    <a href="mailto:kylegsisson@gmail.com">kylegsisson@gmail.com</a>
     <div>&copy; 2019, Built with <a href="https://www.gatsbyjs.org/">Gatsby</a></div>
   </StyledFooter>
 )
