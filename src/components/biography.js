@@ -36,7 +36,8 @@ img {
 }
 .CPLogo {
   height: 126px;
-  padding: 62px 0;
+  padding: 0;
+  margin-top: 65px;
 }
 `;
 
